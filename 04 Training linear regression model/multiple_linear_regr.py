@@ -31,7 +31,6 @@ ax.set_zlabel('Z - temp')
 # całego wykresu
 ax.plot_surface(X, Y, Z, alpha=0.5, cmap='coolwarm', label='Surface')
 
-# Wyświetlenie wykresu 3D
 #plt.show()
 
 #dane na temat modelu
