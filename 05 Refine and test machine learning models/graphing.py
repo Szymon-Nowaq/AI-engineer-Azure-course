@@ -230,7 +230,7 @@ def multiple_histogram(df:pandas.DataFrame,
 
     # Show the plot, if requested
     if show:
-        fig.show()
+        fig.write_html('fig.html', auto_open=True)
 
     # return the figure
     return fig
